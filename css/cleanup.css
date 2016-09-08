@@ -1,1 +1,16 @@
 /* write your override styles here */
+div#wall #tag-2{
+  display: none;
+} /* 1 + 100 + 100 = 201 */
+
+#wall .tag-1 {
+  display: none;
+} /* 100 + 10 = 110 */
+
+div#wall div#tag-3.slick {
+  display: none;
+} /* 1 + 100 + 1 + 100 + 10 = 212 */
+
+.parent {
+  display: none;
+} /* 10 */
